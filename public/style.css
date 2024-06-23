@@ -1,0 +1,55 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    text-align: center;
+    width: 100%;
+    max-width: 360px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.search-form, .results-list {
+    width: 100%;
+}
+
+input[type="text"], button, .results-list ul {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #004494;
+}
+
+.results-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.results-list li {
+    background: #fff;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+}
